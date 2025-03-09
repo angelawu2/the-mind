@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0e4bd944-1a77-42e1-a904-f0bf7a9d045f/deploy-status?branch=main)](https://app.netlify.com/sites/dazzling-taffy-7bbb03/deploys)
+
 # Next.js on Netlify Platform Starter
 
 [Live Demo](https://nextjs-platform-starter.netlify.app/)
