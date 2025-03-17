@@ -20,9 +20,7 @@ export function ContextAlert(props) {
 
     if (markdownText) {
         return (
-            <Alert>
-                <Markdown content={markdownText} />
-            </Alert>
+            <Markdown content={markdownText} />
         );
     } else {
         return <></>;

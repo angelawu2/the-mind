@@ -1,6 +1,6 @@
-import { Markdown } from 'src/components/markdown';
+import { Markdown } from 'src/pages/components/markdown';
 import { ShapeEditor } from './editor';
-import { ContextAlert } from 'src/components/context-alert';
+import { ContextAlert } from 'src/pages/components/context-alert';
 import { getNetlifyContext, uploadDisabled } from 'utils';
 
 export const metadata = {
