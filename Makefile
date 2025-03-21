@@ -1,3 +1,3 @@
 up:
-	node src/backend/server.js
+	node backend/src/server.js
 	
