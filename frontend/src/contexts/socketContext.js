@@ -5,7 +5,7 @@ import jsonParser from "socket.io-json-parser";
 const SocketContext = createContext();
 
 const SocketProvider = ({ children }) => {
-    const ENDPOINT = process.env.ENDPOINT;
+    // const ENDPOINT = process.env.ENDPOINT;
     
     const socket = io({
         parser: jsonParser
@@ -16,4 +16,10 @@ const SocketProvider = ({ children }) => {
             {children}
         </SocketContext.Provider>
     );
+}
+
+
+export {
+    SocketContext,
+    SocketProvider,
 }
