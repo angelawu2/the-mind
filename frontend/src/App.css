@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import "tailwind.css";
+@plugin "daisyui";
 
-.App{
-    font-family: 'DM Sans';
-    height: 100vh;
-    background: #D0E0EF;
+.App {
+  font-family: "DM Sans";
+  height: 100vh;
+  background: #d0e0ef;
 }

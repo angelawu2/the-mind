@@ -1,6 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
-const colors = require('tailwindcss/colors');
-const defaultTheme = require('tailwindcss/defaultTheme');
+// const colors = require('tailwindcss/colors');
+// const defaultTheme = require('tailwindcss/defaultTheme');
 
 export default {
     content: ['./src/**/*.{js,ts,jsx,tsx}'],
@@ -17,5 +17,5 @@ export default {
             // }
         }
     },
-    plugins: []
+    plugins: [require("daisyui")]
 };

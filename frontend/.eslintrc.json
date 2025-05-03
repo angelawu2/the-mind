@@ -1,0 +1,30 @@
+{
+    "parserOptions": { 
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018
+    },
+    "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:jsx-a11y/recommended", "plugin:import/errors"],
+    "rules": {
+        "@next/next/no-img-element": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/prop-types": "off"
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        },
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx"]
+            }
+        }
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "plugins": ["react", "import", "jsx-a11y"]
+}

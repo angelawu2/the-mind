@@ -1,0 +1,14 @@
+{
+    "name": "@the-mind-card-game/lib",
+    "version": "0.1.0",
+    "private": true,
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "webpack --progress --mode=production --entry=./src/index.js",
+        "watch": "webpack --progress --mode=production --entry=./src/index.js --watch"
+    },
+    "devDependencies": {
+        "webpack": "^5.99.5",
+        "webpack-cli": "^6.0.1"
+    }
+}
